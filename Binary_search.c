@@ -14,7 +14,6 @@ int main(){
         scanf("%d",&xyz[i]);
     }
     while(f<=l){
-        
         m = (f + l) / 2;
    if(xyz[m]==k){
     printf("The match found at index %d",m);
